@@ -1,0 +1,88 @@
+body
+{
+    background-color: rgb(107, 140, 87);
+    text-align: center;
+}
+h1
+{
+    color: rgb(255, 170, 11);
+    background-color: rgb(78, 99, 65);
+}
+#showSketch
+{
+    float: right;
+}
+#label
+{
+    color: rgb(255, 170, 11);
+    font-size: 25px;
+}
+#confidence
+{
+    color: rgb(255, 170, 11);
+    font-size: 25px;
+}
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes example
+{
+    from
+    {
+        box-shadow: 1px 1px 38px gray;
+    }
+    to
+    {
+        box-shadow: 1px 1px 38px gray;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
