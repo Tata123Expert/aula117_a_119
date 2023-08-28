@@ -37,7 +37,7 @@ function gotResult(error, results)
     var result = results[0].label;
     document.getElementById('label').innerHTML = 'Nome: ' + result.replace('_', ' ');
     document.getElementById('confidence').innerHTML = 'Precisão: ' + Math.round(results[0].confidence * 100) + '%';
-    utterThis = new speechSynthesisUtterance(result.replace('_', ' '));
+    utterThis = new SpeechSynthesisUtterance(result.replace('_', ' '));
     synth.speak(utterThis);
 }
 
